@@ -71,6 +71,51 @@
       <div class="outer">
         <section id="main">
   
+    <article id="post-MATLAB画图" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
+  <div class="article-meta">
+    <a href="/2022/05/05/MATLAB%E7%94%BB%E5%9B%BE/" class="article-date">
+  <time class="dt-published" datetime="2022-05-05T02:53:30.000Z" itemprop="datePublished">2022-05-05</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="p-name article-title" href="/2022/05/05/MATLAB%E7%94%BB%E5%9B%BE/">MATLAB画图</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="e-content article-entry" itemprop="articleBody">
+      
+        <p>首先将数据导入到MATLAB工作区</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">复制表格数据，在工作区粘贴</span><br></pre></td></tr></table></figure>
+
+<p>其次打开代码</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br></pre></td><td class="code"><pre><span class="line">semilogy(VarName2,VarName1,<span class="string">&#x27;r-&#x27;</span>)</span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName3, VarName1,<span class="string">&#x27;g-&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName4, VarName1,<span class="string">&#x27;b-&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName5, VarName1,<span class="string">&#x27;c-&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName6, VarName1,<span class="string">&#x27;m-&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName7, VarName1,<span class="string">&#x27;y-&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName8, VarName1,<span class="string">&#x27;k-&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName9, VarName1,<span class="string">&#x27;r--&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName10, VarName1,<span class="string">&#x27;g--&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName11, VarName1,<span class="string">&#x27;b--&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName12, VarName1,<span class="string">&#x27;c--&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName13, VarName1,<span class="string">&#x27;m--&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName14, VarName1,<span class="string">&#x27;y--&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName15, VarName1,<span class="string">&#x27;k--&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName16, VarName1,<span class="string">&#x27;r:&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName17, VarName1,<span class="string">&#x27;g:&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName18, VarName1,<span class="string">&#x27;b:&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName19, VarName1,<span class="string">&#x27;c:&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName20, VarName1,<span class="string">&#x27;m:&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName21, VarName1,<span class="string">&#x27;y:&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName22, VarName1,<span class="string">&#x27;k:&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName23, VarName1,<span class="string">&#x27;r:.&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">semilogy</span><span class="params">(VarName24, VarName1,<span class="string">&#x27;g:.&#x27;</span>)</span>; </span><br><span class="line">hold on</span><br><span class="line"><span class="title function_">axis</span><span class="params">([<span class="number">0</span>,<span class="number">8</span>,<span class="number">0.001</span>,<span class="number">100</span>])</span></span><br><span class="line"><span class="title function_">xlabel</span><span class="params">(<span class="string">&#x27;Voltage(V)&#x27;</span>)</span>;</span><br><span class="line">ylabel(<span class="string">&#x27;Current(mA)&#x27;</span>);</span><br><span class="line">h = legend(<span class="string">&#x27;6K&#x27;</span>,<span class="string">&#x27;10K&#x27;</span>,<span class="string">&#x27;20K&#x27;</span>,<span class="string">&#x27;30K&#x27;</span>,<span class="string">&#x27;40K&#x27;</span>,<span class="string">&#x27;50K&#x27;</span>,<span class="string">&#x27;60K&#x27;</span>,<span class="string">&#x27;70K&#x27;</span>,<span class="string">&#x27;80K&#x27;</span>,<span class="string">&#x27;90K&#x27;</span>,<span class="string">&#x27;100K&#x27;</span>,<span class="string">&#x27;110K&#x27;</span>,<span class="string">&#x27;120K&#x27;</span>,<span class="string">&#x27;130K&#x27;</span>,<span class="string">&#x27;140K&#x27;</span>,<span class="string">&#x27;150K&#x27;</span>,<span class="string">&#x27;160K&#x27;</span>,<span class="string">&#x27;180K&#x27;</span>,<span class="string">&#x27;200K&#x27;</span>,<span class="string">&#x27;220K&#x27;</span>,<span class="string">&#x27;250K&#x27;</span>,<span class="string">&#x27;275K&#x27;</span>,<span class="string">&#x27;300K&#x27;</span>,<span class="string">&#x27;FontSize&#x27;</span>);</span><br><span class="line"><span class="built_in">set</span>(h,<span class="string">&#x27;FontName&#x27;</span>,<span class="string">&#x27;Times New Roman&#x27;</span>,<span class="string">&#x27;FontSize&#x27;</span>,<span class="number">8</span>,<span class="string">&#x27;FontWeight&#x27;</span>,<span class="string">&#x27;normal&#x27;</span>)</span><br></pre></td></tr></table></figure>
+
+<p>运行结果<br><img src="https://img-blog.csdnimg.cn/bb66de81252440a69dc4fb9251e35e87.png" alt="在这里插入图片描述"><br>参考资料<br>1、figure中画多条线，并对每条线依次加标注<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/baidu_38205880/article/details/80285487">https://blog.csdn.net/baidu_38205880/article/details/80285487</a><br>2、画图常用的线条符号、颜色<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/sinat_21026543/article/details/80215281">https://blog.csdn.net/sinat_21026543/article/details/80215281</a><br>3、画对数坐标<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/kevinhg/article/details/7948322">https://blog.csdn.net/kevinhg/article/details/7948322</a><br>4、设置坐标轴&#x2F;字体&#x2F;颜色<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/zhuiyuanzhongjia/article/details/51424700">https://blog.csdn.net/zhuiyuanzhongjia/article/details/51424700</a><br>5、图例legend设置字体、大小、字体粗细<br><a target="_blank" rel="noopener" href="https://blog.csdn.net/ma123rui/article/details/100590766">https://blog.csdn.net/ma123rui/article/details/100590766</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2022/05/05/MATLAB%E7%94%BB%E5%9B%BE/" data-id="cl2sf18t70000mgw5bdh3gl1l" data-title="MATLAB画图" class="article-share-link">Share</a>
+      
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+
+  
     <article id="post-奋斗者-正青春" class="h-entry article article-type-post" itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
   <div class="article-meta">
     <a href="/2022/05/04/%E5%A5%8B%E6%96%97%E8%80%85-%E6%AD%A3%E9%9D%92%E6%98%A5/" class="article-date">
@@ -352,6 +397,10 @@
       <ul>
         
           <li>
+            <a href="/2022/05/05/MATLAB%E7%94%BB%E5%9B%BE/">MATLAB画图</a>
+          </li>
+        
+          <li>
             <a href="/2022/05/04/%E5%A5%8B%E6%96%97%E8%80%85-%E6%AD%A3%E9%9D%92%E6%98%A5/">奋斗者 正青春</a>
           </li>
         
@@ -365,10 +414,6 @@
         
           <li>
             <a href="/2022/05/01/%E8%87%B4%E6%95%AC%E5%B9%B3%E5%87%A1%E8%80%8C%E4%BC%9F%E5%A4%A7%E7%9A%84%E7%94%B5%E5%AD%90%E5%B7%A5%E7%A8%8B%E5%B8%88/">致敬平凡而伟大的电子工程师</a>
-          </li>
-        
-          <li>
-            <a href="/2022/04/30/MCU%E8%8A%AF%E7%89%87%E8%AE%BE%E8%AE%A1%E5%92%8C%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/">MCU芯片设计和软件开发</a>
           </li>
         
       </ul>
